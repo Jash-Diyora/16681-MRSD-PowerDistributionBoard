@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="VISHAY_SMBJ3V3-E3-52_0">
+                    <description>Surface Mount TRANSZORB® Transient Voltage Suppressors</description>
+                    <wire layer="51" y2="1.97" width="0.15" x2="-2.285" y1="-1.97" x1="-2.285"/>
+                    <wire layer="51" y2="1.97" width="0.15" x2="2.285" y1="1.97" x1="-2.285"/>
+                    <wire layer="51" y2="-1.97" width="0.15" x2="2.285" y1="1.97" x1="2.285"/>
+                    <wire layer="51" y2="-1.97" width="0.15" x2="-2.285" y1="-1.97" x1="2.285"/>
+                    <wire layer="39" y2="2.07" width="0.1" x2="-2.7" y1="-2.07" x1="-2.7"/>
+                    <wire layer="39" y2="2.07" width="0.1" x2="2.7" y1="2.07" x1="-2.7"/>
+                    <wire layer="39" y2="-2.07" width="0.1" x2="2.7" y1="2.07" x1="2.7"/>
+                    <wire layer="39" y2="-2.07" width="0.1" x2="-2.7" y1="-2.07" x1="2.7"/>
+                    <wire layer="21" y2="1.97" width="0.15" x2="2.285" y1="1.97" x1="-2.285"/>
+                    <wire layer="21" y2="-1.465" width="0.15" x2="2.285" y1="-1.97" x1="2.285"/>
+                    <wire layer="21" y2="1.97" width="0.15" x2="2.285" y1="1.465" x1="2.285"/>
+                    <wire layer="21" y2="-1.97" width="0.15" x2="2.285" y1="-1.97" x1="-2.285"/>
+                    <wire layer="21" y2="-1.465" width="0.15" x2="-2.285" y1="-1.97" x1="-2.285"/>
+                    <wire layer="21" y2="1.97" width="0.15" x2="-2.285" y1="1.465" x1="-2.285"/>
+                    <wire layer="21" y2="1.895" width="0.3" x2="-0.6" y1="-1.895" x1="-0.6"/>
+                    <text layer="25" align="bottom-left" y="2.27" x="-2.285" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="0.0" x="-3.15" layer="21" radius="0.25" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="1.52" dy="2.18" y="0.0" x="-1.839" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="1.52" dy="2.18" y="0.0" x="1.839" rot="R0" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="VISHAY_SMBJ3V3-E3-52_0_0">
+                    <description>Surface Mount TRANSZORB® Transient Voltage Suppressors</description>
+                    <wire layer="94" y2="-7.62" width="0.508" x2="2.54" y1="-2.54" x1="2.54"/>
+                    <wire layer="94" y2="-6.35" width="0.508" x2="7.62" y1="-3.81" x1="7.62"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="7.62" y1="-2.54" x1="2.54"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="7.62" y1="-7.62" x1="2.54"/>
+                    <wire layer="94" y2="-2.54" width="0.508" x2="8.89" y1="-3.81" x1="7.62"/>
+                    <wire layer="94" y2="-7.62" width="0.508" x2="6.35" y1="-6.35" x1="7.62"/>
+                    <wire layer="94" y2="-5.08" width="0.15" x2="2.54" y1="-5.08" x1="2.54"/>
+                    <wire layer="94" y2="-5.08" width="0.15" x2="7.62" y1="-5.08" x1="7.62"/>
+                    <text layer="95" align="top-left" y="0.508" x="1.016" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-8.636" x="1.016" rot="R0" size="2.54">SMBJ3V3-E3/52</text>
+                    <pin direction="pas" name="ANODE" visible="pad" length="middle" y="-5.08" x="-2.54"/>
+                    <pin direction="pas" name="CATHODE" visible="pad" length="middle" y="-5.08" x="12.7" rot="R180"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="D" name="VISHAY_SMBJ3V3-E3-52">
+                    <description>Surface Mount TRANSZORB® Transient Voltage Suppressors</description>
+                    <gates>
+                        <gate name="G$0" symbol="VISHAY_SMBJ3V3-E3-52_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="VISHAY_SMBJ3V3-E3-52_0_0" package="VISHAY_SMBJ3V3-E3-52_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="CATHODE"/>
+                                <connect gate="G$0" pad="2" pin="ANODE"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_part_number" value="625-SMBJ3V3-E3"/>
+                                    <attribute name="mouser_description" value="Diode: transil; 600W; 4.1V; 50A; unidirectional; SMB; TransZorb®"/>
+                                    <attribute name="breakdown_voltage" value="4.1V"/>
+                                    <attribute name="mfg_package_ident_rev" value="0"/>
+                                    <attribute name="max_junction_temp" value="+175°C"/>
+                                    <attribute name="direction" value="Unidirectional"/>
+                                    <attribute name="MPN" value="SMBJ3V3-E3/52"/>
+                                    <attribute name="device_class_L3" value="unset"/>
+                                    <attribute name="device_class_L1" value="Circuit Protection"/>
+                                    <attribute name="digikey_part_number" value="SMBJ3V3-E3/52GICT-ND"/>
+                                    <attribute name="prefix" value="D"/>
+                                    <attribute name="verification_version" value="0.0.0.1"/>
+                                    <attribute name="clamping_voltage" value="10.3V"/>
+                                    <attribute name="datasheet" value="http://www.vishay.com/docs/88940/smbj3v3.pdf"/>
+                                    <attribute name="lead_free" value="yes"/>
+                                    <attribute name="height" value="2.44mm"/>
+                                    <attribute name="mfg_package_ident" value="SMBJ"/>
+                                    <attribute name="peak_pulse_current" value="200A"/>
+                                    <attribute name="device_class_L2" value="TVS Diodes"/>
+                                    <attribute name="digikey_description" value="DIODE TVS DIODE 3.3V 10.3V DO214AA"/>
+                                    <attribute name="capacitance" value="5.2nF"/>
+                                    <attribute name="rohs" value="yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="reverse_standoff_voltage" value="3.3V"/>
+                                    <attribute name="standoff_height" value="0mm"/>
+                                    <attribute name="mfg_package_ident_date" value="13/12/2013"/>
+                                    <attribute name="number_of_channels" value="1"/>
+                                    <attribute name="MF" value="Vishay"/>
+                                    <attribute name="package" value="DO-214AA"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
